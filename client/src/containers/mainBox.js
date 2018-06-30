@@ -11,7 +11,9 @@ constructor(props){
 
   render(){
     return (
-      
+      <div>
+        <PeriodicTable />
+      </div>
     )
   }
 
