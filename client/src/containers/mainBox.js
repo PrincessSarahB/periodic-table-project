@@ -1,5 +1,5 @@
-require React from ('react');
-
+import React from 'react';
+import PeriodicTable from "../components/PeriodicTable"
 class MainBox extends React.Component{
 
 constructor(props){
