@@ -1,0 +1,16 @@
+{
+  "name": "periodic_table_project",
+  "version": "1.0.0",
+  "description": "A full stack react app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "seeds": "mongo < seeds.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
