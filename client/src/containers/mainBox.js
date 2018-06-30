@@ -5,14 +5,18 @@ class MainBox extends React.Component{
 constructor(props){
   super(props);
     this.state = {
-      element: []
+      elements: []
     }
   }
 
+componentDidMount(){
+  const url = '/api/elements';
+  fetch(url).then(res => res.json()).then(elements => this.setState({elements: elements}));
+}
   render(){
     return (
       <div>
-        <PeriodicTable />
+        <PeriodicTable elements ={this.state.elements}/>
       </div>
     )
   }
