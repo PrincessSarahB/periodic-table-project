@@ -5,7 +5,7 @@ class MainBox extends React.Component{
 constructor(props){
   super(props);
     this.state = {
-      elements: []
+      elements:[]
     }
   }
 
@@ -16,7 +16,7 @@ componentDidMount(){
   render(){
     return (
       <div>
-        <PeriodicTable elements ={this.state.elements}/>
+        <PeriodicTable elements={this.state.elements}/>
       </div>
     )
   }

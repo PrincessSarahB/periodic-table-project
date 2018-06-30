@@ -1,17 +1,18 @@
 import React from 'react';
 
-const Element = (props)=> {
+class Element extends React.Component
+{
 
-  var element = this.props.elements.forEach( element => {
-    var coords = [element.xpos, element.ypos];
-    console.log(coords);
-  });
 
+render(){
   return (
     <div className="grid-square">
-      {element}
+      <p>Name</p>
+      <p>Symbol</p>
   </div>
   )
+
+}
 }
 
 export default Element;

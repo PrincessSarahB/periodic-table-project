@@ -10,8 +10,9 @@ class PeriodicTable extends React.Component{
     let id = 0;
     for (var y = 1; y < 11; y++) {
       for (var x = 1; x < 19; x++) {
-        grid.push(<Element elements={this.props.elements} coords={x, y} key={id}/>)
+        grid.push(<Element elements={this.props.elements} coords={[x, y]} key={id}/>)
         id++
+
       }
     }
 
@@ -28,7 +29,7 @@ class PeriodicTable extends React.Component{
         <div className="row">{grid.slice(126, 144)}</div>
         <div className="row">{grid.slice(144, 162)}</div>
         <div className="row">{grid.slice(162, 180)}</div>
-    <Element />
+
   </div>
     )
   }
