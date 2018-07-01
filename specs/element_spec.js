@@ -43,5 +43,9 @@ describe('Element', function(){
 
   it('should have a boil point', function(){
     assert.equal(element.boil, 3243)
+  });
+
+  it('should have a category', function(){
+    assert.equal(element.category, "transition metal")
   })
 })
