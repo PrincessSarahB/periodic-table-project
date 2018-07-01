@@ -10,11 +10,17 @@ class PeriodicTable extends React.Component{
     let id = 0;
     for (var y = 1; y < 11; y++) {
       for (var x = 1; x < 19; x++) {
-        grid.push(<Element elements={this.props.elements} coords={[x, y]} key={id}/>)
+        const tempElement = this.props.elements.find( element => {
+          return (element.xpos === x && element.ypos === y)
+        })
+        grid.push(<Element elementDetails={tempElement} coords={[x, y]} key={id}/>)
         id++
-
       }
     }
+
+    const temp = this.props.elements.find( element => {
+      return (element.xpos === 1 && element.ypos === 1)
+    })
 
     return (
       <div>
