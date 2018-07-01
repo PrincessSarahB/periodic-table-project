@@ -1,3 +1,8 @@
+.periodic-table {
+  height: 1000px;
+  width: 1000px;
+}
+
 .row {
   display: flex;
 }
