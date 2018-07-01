@@ -19,7 +19,7 @@ componentDidMount(){
     return (
       <div>
         <PeriodicTable elements={this.state.elements}/>
-        <InfoBox />
+        <InfoBox elements={this.state.elements}/>
       </div>
     )
   }
