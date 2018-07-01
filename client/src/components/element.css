@@ -4,8 +4,47 @@
     font-size: 3vw;
 }
 
+.diatomic {
+    background-color: green;
+}
+
+.noble {
+    background-color: lightblue;
+}
+
+.alkali {
+    background-color: orange;
+}
+
+.alkaline {
+    background-color: yellow;
+}
+
+.metalloid {
+    background-color: blue;
+}
+
+.polyatomic {
+    background-color: darkslategray;
+}
+
+.transition {
+    background-color: lightsalmon;
+}
+
+.post-transition {
+    background-color: rgb(250, 115, 70);
+}
+
+.lanthanide {
+    background-color: MEDIUMSLATEBLUE
+}
+
+.actinide {
+    background-color: firebrick;
+}
+
 button {
-    background-color: grey;
     display: block;
     height: 100%;
     width: 100%;
@@ -13,5 +52,6 @@ button {
 }
 
 button:hover {
-    transform: scale(2.0);
+    transform: scale(2.0) rotateZ(720deg);
+    background-color: rgb(51, 1, 255);
 }
