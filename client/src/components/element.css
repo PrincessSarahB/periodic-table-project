@@ -8,9 +8,10 @@ button {
     background-color: grey;
     display: block;
     height: 100%;
-    width: 100%
+    width: 100%;
+    transition: all 0.7s;
 }
 
 button:hover {
-    opacity: 0.5;
+    transform: scale(2.0);
 }
