@@ -52,4 +52,8 @@ describe('Element', function(){
   it('should have a color', function(){
     assert.equal(element.color, null)
   });
+
+  it('should have a density', function(){
+    assert.equal(element.density, 19.3)
+  });
 })
