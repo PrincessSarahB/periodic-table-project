@@ -20,12 +20,10 @@ componentDidMount(){
     return (
       <div className="page-content">
         <PeriodicTable elements={this.state.elements}/>
-
         <div className="info-box">
           <InfoBox elements={this.state.elements} />
         </div>
-
-
+      </div>
     )
   }
 
