@@ -47,5 +47,9 @@ describe('Element', function(){
 
   it('should have a category', function(){
     assert.equal(element.category, "transition metal")
-  })
+  });
+
+  it('should have a color', function(){
+    assert.equal(element.color, null)
+  });
 })
