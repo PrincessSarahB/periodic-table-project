@@ -31,5 +31,9 @@ describe('Element', function(){
 
   it('should have a name', function(){
     assert.equal(element.name, "Gold");
-  })
+  });
+
+  it('should have an appearance', function(){
+    assert.equal(element.appearance, "metallic yellow")
+  });
 })
