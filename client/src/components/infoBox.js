@@ -7,6 +7,7 @@ class InfoBox extends React.Component{
       <p> infoBox </p>
     )
   }
+  
 }
 
 export default InfoBox;

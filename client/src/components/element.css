@@ -1,4 +1,16 @@
 .grid-square {
-    height: 10vh;
+    height: 100%;
     width: 100vw;
+    font-size: 3vw;
+}
+
+button {
+    background-color: grey;
+    display: block;
+    height: 100%;
+    width: 100%
+}
+
+button:hover {
+    opacity: 0.5;
 }
