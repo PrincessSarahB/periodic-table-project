@@ -1,0 +1,17 @@
+.grid-square {
+    height: 100%;
+    width: 100vw;
+    font-size: 3vw;
+}
+
+button {
+    background-color: grey;
+    display: block;
+    height: 100%;
+    width: 100%;
+    transition: all 0.7s;
+}
+
+button:hover {
+    transform: scale(2.0);
+}

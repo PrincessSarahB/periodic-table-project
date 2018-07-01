@@ -1,0 +1,9 @@
+ul, li {
+    list-style-type: none;
+    text-align: justify;
+}
+
+.element-info {
+    font-size: 1vw;
+    padding-top: 15%;
+}
