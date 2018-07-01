@@ -56,4 +56,8 @@ describe('Element', function(){
   it('should have a density', function(){
     assert.equal(element.density, 19.3)
   });
+
+  it('should have a discovered_by', function(){
+    assert.equal(element.discovered_by, )
+  })
 })
