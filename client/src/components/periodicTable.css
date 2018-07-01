@@ -1,6 +1,8 @@
 .periodic-table {
-  height: 1000px;
-  width: 1000px;
+  text-align: center;
+  height: 100vh;
+  width: 80vw;
+  
 }
 
 .row {

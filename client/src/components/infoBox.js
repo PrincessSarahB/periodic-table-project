@@ -22,6 +22,7 @@ class InfoBox extends React.Component{
       <div> {elementInfo[0]} </div>
     )
   }
+  
 }
 
 export default InfoBox;

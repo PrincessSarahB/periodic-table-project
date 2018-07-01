@@ -10,9 +10,9 @@ class Element extends React.Component {
       elementInfo = (
         <div id={[element.xpos, element.ypos]} className="element" value={element}>
           <button>
-          <p> {element.number} </p>
-          <p> {element.symbol} </p>
-          <p> {element.name} </p>
+          <p> <strong> {element.number} </strong> </p>
+          <p> <strong> {element.symbol} </strong> </p>
+          <p> <strong> {element.name} </strong> </p>
         </button>
         </div>
       )

@@ -1,0 +1,9 @@
+.page-content {
+    background-color: lightgray;
+    display: flex;
+}
+
+.info-box {
+    text-align: center;
+    width: 100%;
+}

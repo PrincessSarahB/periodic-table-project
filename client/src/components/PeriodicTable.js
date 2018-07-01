@@ -19,7 +19,7 @@ class PeriodicTable extends React.Component{
     }
 
     return (
-      <div className="period-table">
+      <div className="periodic-table">
         <h1>Physics Yay!</h1>
           <div className="row">{grid.slice(0, 18)} </div>
           <div className="row">{grid.slice(18, 36)}</div>

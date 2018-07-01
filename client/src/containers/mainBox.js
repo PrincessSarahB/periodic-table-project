@@ -1,6 +1,7 @@
 import React from 'react';
 import PeriodicTable from "../components/PeriodicTable"
 import InfoBox from "../components/infoBox"
+import "./mainBox.css"
 class MainBox extends React.Component{
 
 constructor(props){
@@ -17,9 +18,11 @@ componentDidMount(){
 
   render(){
     return (
-      <div>
+      <div className="page-content">
         <PeriodicTable elements={this.state.elements}/>
-        <InfoBox elements={this.state.elements}/>
+        <div className="info-box">
+          <InfoBox elements={this.state.elements} />
+        </div>
       </div>
     )
   }
