@@ -10,10 +10,12 @@ button {
     height: 100%;
     width: 100%;
     transition: all 0.7s;
+    cursor:pointer;
 }
 
-button:hover {
-    transform: scale(2.0) rotateZ(720deg);
+button:active {
+    transform: scale(3.0) rotateZ(720deg);
     background-color: rgb(51, 1, 255);
 
 }
+
