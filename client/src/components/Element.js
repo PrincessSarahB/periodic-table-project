@@ -9,16 +9,18 @@ class Element extends React.Component {
       const element = this.props.elementDetails
       elementInfo = (
         <div id={[element.xpos, element.ypos]} className="element" value={element}>
+          <button>
           <p> {element.number} </p>
           <p> {element.symbol} </p>
           <p> {element.name} </p>
+        </button>
         </div>
       )
     }
 
     return (
       <div className="grid-square">
-        {elementInfo}
+       {elementInfo} 
       </div>
     )
 
