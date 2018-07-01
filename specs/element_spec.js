@@ -40,4 +40,8 @@ describe('Element', function(){
   it('should have an atomic mass', function(){
     assert.equal(element.atomic_mass, 196.9665695)
   });
+
+  it('should have a boil point', function(){
+    assert.equal(element.boil, 3243)
+  })
 })
