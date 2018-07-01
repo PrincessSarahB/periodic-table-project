@@ -5,7 +5,6 @@ import "./periodicTable.css"
 class PeriodicTable extends React.Component{
 
   render(){
-
     const grid = [];
     let id = 0;
     for (var y = 1; y < 11; y++) {
@@ -13,7 +12,7 @@ class PeriodicTable extends React.Component{
         const tempElement = this.props.elements.find( element => {
           return (element.xpos === x && element.ypos === y)
         })
-        grid.push(<Element elementDetails={tempElement} coords={[x, y]} key={id}/>)
+        grid.push(<Element elementDetails={tempElement} coords={[x, y]} key={id} btnEvent={this.props.changeInfo}/>)
         id++
       }
     }

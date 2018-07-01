@@ -7,14 +7,14 @@ class Element extends React.Component {
     if (this.props.elementDetails !== undefined) {
       const element = this.props.elementDetails
       elementInfo = (
-        <div id={[element.xpos, element.ypos]} className="element" value={element}>
-          <button className={element.category}>
-          <p> <strong> {element.number} </strong> </p>
-          <p> <strong> {element.symbol} </strong> </p>
-          <p> <strong> {element.name} </strong> </p>
-        </button>
+        <div id={[element.xpos, element.ypos]} className="element">
+          <button className={element.category} value={element} onClick={this.props.btnEvent}>
+            <p> <strong> {element.number} </strong> </p>
+            <p> <strong> {element.symbol} </strong> </p>
+            <p> <strong> {element.name} </strong> </p>
+          </button>
         </div>
-      )
+      )      
     }
 
     return (
