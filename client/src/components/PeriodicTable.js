@@ -18,10 +18,6 @@ class PeriodicTable extends React.Component{
       }
     }
 
-    const temp = this.props.elements.find( element => {
-      return (element.xpos === 1 && element.ypos === 1)
-    })
-
     return (
       <div>
       <h1>Physics Yay!</h1>
