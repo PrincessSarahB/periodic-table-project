@@ -13,7 +13,7 @@ button {
 }
 
 button:hover {
-    /*transform: scale(2.0);*/
-    transform: rotateZ(720deg);
+    transform: scale(2.0) rotateZ(720deg);
     background-color: rgb(51, 1, 255);
+
 }
