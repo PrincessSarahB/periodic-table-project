@@ -17,7 +17,7 @@ class InfoBox extends React.Component {
           <li className="li-namer">Named By: {element.named_by} </li>
           <li className="li-number">Number: {element.number} </li>
           <li className="li-phase">Phase: {element.phase} </li>
-          <li className="li-link"> </li>
+          <li className="li-link"> <a href={element.source}> Read more </a> </li>
       </div>
     </ul>
 
