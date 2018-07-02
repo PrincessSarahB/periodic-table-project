@@ -75,4 +75,8 @@ describe('Element', function(){
   it('should have a number', function(){
     assert.equal(element.number, 79)
   });
+
+  it('should have a period', function(){
+    assert.equal(element.period, 6)
+  });
 })
