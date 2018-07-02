@@ -7,16 +7,17 @@ class MainBox extends React.Component{
 constructor(props){
   super(props);
     this.state = {
-      elements:[]
+      elements:[],
+      elementToDsiplay: {}
     }
     this.handleBtnClick = this.handleBtnClick.bind(this);
   }
 
 // Database api request gets a list of all elements in JSON format.
 componentDidMount(){
-  console.log('should only happen once')
   const url = '/api/elements';
-  fetch(url).then(res => res.json()).then(elements => this.setState({elements: elements}));
+  fetch(url).then(res => res.json()).then(elements => this.setState({elements: elements,
+    elementToDsiplay: elements[0]}));
 }
 
 // Changes relevant properties in the infobox to match element selected.
@@ -44,15 +45,18 @@ handleBtnClick(event) {
   number.textContent = element.number
   phase.textContent = element.phase
   link.textContent = element.source
+
+  const starter_point = "https://www.youtube.com/embed/"
+  const video_url = element.video.split('=');
+  document.querySelector('#video').src = starter_point + video_url[1];
 }
 
 render(){
-  console.log('in mainBox render')
   return (
     <div className="page-content">
       <PeriodicTable elements={this.state.elements} changeInfo={this.handleBtnClick}/>
       <div className="info-box">
-        <InfoBox />
+        <InfoBox displayElement={this.state.elementToDsiplay}/>
       </div>
     </div>
   )
