@@ -22,7 +22,7 @@ describe('Element', function(){
       "phase": "Solid",
       "source": "https://en.wikipedia.org/wiki/Gold",
       "spectral_img": null,
-      "video": "XXXXXXXXXXXXXXXXXXXXX",
+      "video": "https://www.youtube.com/watch?v=7dF0QTzcuac&index=79&list=PL7A1F4CF36C085DE1",
       "summary": "Gold is a chemical element with symbol Au (from Latin:aurum) and atomic number 79. In its purest form, it is a bright, slightly reddish yellow, dense, soft, malleable and ductile metal. Chemically, gold is a transition metal and a group 11 element.",
       "symbol": "Au",
       "xpos": 11,
@@ -91,4 +91,10 @@ describe('Element', function(){
   it('should have a spectral image', function(){
     assert.equal(element.spectral_img, null)
   });
+
+  it('should have a video link', function(){
+    assert.equal(element.video, "https://www.youtube.com/watch?v=7dF0QTzcuac&index=79&list=PL7A1F4CF36C085DE1")
+  });
+
+
 })
