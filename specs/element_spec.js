@@ -104,5 +104,9 @@ describe('Element', function(){
     assert.equal(element.symbol, "Au")
   });
 
+  it('should have an x position', function(){
+    assert.equal(element.xpos, 11)
+  });
+
 
 })
