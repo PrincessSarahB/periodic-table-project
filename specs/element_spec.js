@@ -108,5 +108,9 @@ describe('Element', function(){
     assert.equal(element.xpos, 11)
   });
 
+  it('should have an y position', function(){
+    assert.equal(element.ypos, 6)
+  });
+
 
 })
