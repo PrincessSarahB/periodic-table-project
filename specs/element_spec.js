@@ -79,4 +79,8 @@ describe('Element', function(){
   it('should have a period', function(){
     assert.equal(element.period, 6)
   });
+
+  it('should have a phase', function(){
+    assert.equal(element.phase, "Solid")
+  });
 })
