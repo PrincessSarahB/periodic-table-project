@@ -100,5 +100,9 @@ describe('Element', function(){
     assert.equal(element.summary, "Gold is a chemical element with symbol Au (from Latin:aurum) and atomic number 79. In its purest form, it is a bright, slightly reddish yellow, dense, soft, malleable and ductile metal. Chemically, gold is a transition metal and a group 11 element." )
   });
 
+  it('should have a symbol', function(){
+    assert.equal(element.symbol, "Au")
+  });
+
 
 })
