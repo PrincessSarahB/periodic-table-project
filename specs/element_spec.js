@@ -83,4 +83,8 @@ describe('Element', function(){
   it('should have a phase', function(){
     assert.equal(element.phase, "Solid")
   });
+
+  it('should have a source', function(){
+    assert.equal(element.source, "https://en.wikipedia.org/wiki/Gold")
+  });
 })
