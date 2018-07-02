@@ -4,10 +4,11 @@ class InfoBox extends React.Component {
 
   render(){
     const element = (this.props.displayElement)
-    
+
     const elementInfo = (
       <ul className="t">
         <div className="element-info">
+          <h1>Element Info</h1>
           <li className="li-name">Name: {element.name} </li>
           <li className="li-symbol">Symbol: {element.symbol} </li>
           <li className="li-appearance">Appearance: {element.appearance} </li>
@@ -23,8 +24,8 @@ class InfoBox extends React.Component {
 
     )
     return (
-      <div> 
-        {elementInfo} 
+      <div>
+        {elementInfo}
         <iframe src="" height="375" width="375" id="video"></iframe>
       </div>
     )
