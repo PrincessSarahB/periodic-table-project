@@ -87,4 +87,8 @@ describe('Element', function(){
   it('should have a source', function(){
     assert.equal(element.source, "https://en.wikipedia.org/wiki/Gold")
   });
+
+  it('should have a spectral image', function(){
+    assert.equal(element.spectral_img, null)
+  });
 })
