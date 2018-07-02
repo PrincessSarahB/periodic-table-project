@@ -67,4 +67,8 @@ describe('Element', function(){
   it('should have a molar_heat', function(){
     assert.equal(element.molar_heat, 25.418)
   });
+
+  it('should have a named_by', function(){
+    assert.equal(element.named_by, null)
+  });
 })
