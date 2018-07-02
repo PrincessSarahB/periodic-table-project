@@ -58,6 +58,10 @@ describe('Element', function(){
   });
 
   it('should have a discovered_by', function(){
-    assert.equal(element.discovered_by, )
-  })
+    assert.equal(element.discovered_by, "Middle East")
+  });
+
+  it('should have a melt', function(){
+    assert.equal(element.melt, 1337.33)
+  });
 })
