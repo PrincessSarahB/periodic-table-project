@@ -34,16 +34,17 @@ handleBtnClick(event) {
   const phase = document.getElementsByClassName("li-phase")[0];
   const link = document.getElementsByClassName("li-link")[0];
 
-  name.textContent = element.name
-  symbol.textContent = element.symbol
-  appearance.textContent = element.appearance
-  atomic.textContent = element.atomic_mass
-  category.textContent = element.category
-  discoverer.textContent = element.discovered_by
-  namer.textContent = element.named_by
-  number.textContent = element.number
-  phase.textContent = element.phase
+  name.textContent = "Name: " + element.name
+  symbol.textContent = "Symbol: " + element.symbol
+  appearance.textContent = "Appearance: " + element.appearance
+  atomic.textContent = "Atomic Mass: " + element.atomic_mass
+  category.textContent = "Category: " + element.category
+  discoverer.textContent = "Discovered By: " + element.discovered_by
+  namer.textContent = "Named by: " + element.named_by
+  number.textContent = "Number: " + element.number
+  phase.textContent = "Phase: " + element.phase
   link.textContent = element.source
+
 }
 
 render(){
@@ -57,6 +58,7 @@ render(){
     </div>
   )
 }
+
 
 }
 
