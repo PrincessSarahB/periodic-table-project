@@ -6,12 +6,14 @@ class InfoBox extends React.Component {
     const element = (this.props.displayElement)
 
     const elementInfo = (
+      <div className="info-box">
+        <h1>Element Info</h1>
       <ul className="t">
         <div className="element-info">
-          <h1>Element Info</h1>
           <li className="li-name">Name: {element.name} </li>
           <li className="li-symbol">Symbol: {element.symbol} </li>
           <li className="li-appearance">Appearance: {element.appearance} </li>
+          <li className="li-summary">Summary: {element.summary} </li>
           <li className="li-atomic-mass">Atomic Mass: {element.atomic_mass} </li>
           <li className="li-category">Category: {element.category} </li>
           <li className="li-discoverer">Discovered By: {element.discovered_by} </li>
@@ -21,6 +23,7 @@ class InfoBox extends React.Component {
           <li className="li-link"> </li>
       </div>
     </ul>
+  </div>
 
     )
     return (

@@ -1,10 +1,23 @@
 ul, li {
-    text-align: justify;
+    text-align: left;
     list-style: none;
+    margin-right: 10%;
+    line-height: 300%;
 
 }
 
 .element-info {
     font-size: 1vw;
     padding-top: 15%;
+
+}
+
+h1{
+  margin-top: 1px;
+}
+
+.info-box{
+  background-color: navy;
+  color: silver;
+  overflow: scroll;
 }
