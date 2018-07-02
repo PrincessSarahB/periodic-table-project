@@ -28,7 +28,7 @@ class InfoBox extends React.Component {
     )
 
     return (
-
+          <div>
         {elementInfo}
         <iframe src="" height="375" width="375" id="video"></iframe>
 
