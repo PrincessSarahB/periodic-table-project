@@ -8,7 +8,7 @@ class Element extends React.Component {
       const element = this.props.elementDetails
       elementInfo = (
         <div id={[element.xpos, element.ypos]} className="element">
-          <button className={element.category} value={JSON.stringify(element)} onClick={this.props.btnEvent}>
+          <button className={element.category} value={element} onClick={this.props.btnEvent}>
             <p> <strong> {element.number} </strong> </p>
             <p> <strong> {element.symbol} </strong> </p>
             <p> <strong> {element.name} </strong> </p>
