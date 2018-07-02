@@ -24,10 +24,6 @@ componentDidMount(){
 handleBtnClick(event) {
   const element = JSON.parse(event.currentTarget.value)
   this.setState({elementToDisplay: element})
-
-  const starter_point = "https://www.youtube.com/embed/"
-  const video_url = element.video.split('=');
-  document.querySelector('#video').src = starter_point + video_url[1];
 }
 
 render(){
@@ -40,6 +36,7 @@ render(){
     </div>
   )
 }
+
 
 }
 

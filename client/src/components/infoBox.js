@@ -22,7 +22,6 @@ class InfoBox extends React.Component {
     </ul>
 
     )
-
     return (
       <div> 
         {elementInfo} 
@@ -30,7 +29,6 @@ class InfoBox extends React.Component {
       </div>
     )
   }
-  
 }
 
 export default InfoBox;
