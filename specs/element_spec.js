@@ -71,4 +71,8 @@ describe('Element', function(){
   it('should have a named_by', function(){
     assert.equal(element.named_by, null)
   });
+
+  it('should have a number', function(){
+    assert.equal(element.number, 79)
+  });
 })
