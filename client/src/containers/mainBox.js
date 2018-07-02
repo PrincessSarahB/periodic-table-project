@@ -24,6 +24,11 @@ componentDidMount(){
 handleBtnClick(event) {
   const element = JSON.parse(event.currentTarget.value)
   this.setState({elementToDisplay: element})
+  var videoElement = document.querySelector("iframe")
+  var url = element.video;
+  var id = url.split("?v=")[1];
+  var id2 = id.split("&")[0];
+  videoElement.src = "http://www.youtube.com/embed/" + id2
 }
 
 render(){
