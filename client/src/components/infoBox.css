@@ -1,6 +1,7 @@
 ul, li {
-    list-style-type: none;
     text-align: justify;
+    list-style: none;
+
 }
 
 .element-info {

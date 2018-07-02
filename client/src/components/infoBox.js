@@ -1,30 +1,28 @@
 import React from 'react';
-import "./infoBox.css";
+import('./infoBox.css');
+
 class InfoBox extends React.Component{
 
   render(){
-    const elementInfo = this.props.elements.map(element => (
-      <ul>
-        <div className="element-info">
-          <li key={element._id}>Name: {element.name}</li>
-          <li key={element._id}>Symbol: {element.symbol}</li>
-          <li key={element._id}>Appearance: {element.appearance}</li>
-          <li key={element._id}>Atomic Mass: {element.atomic_mass}</li>
-          <li key={element._id}>Category: {element.category}</li>
-          <li key={element._id}>Discovered By: {element.discovered_by}</li>
-          <li key={element._id}>Named By: {element.named_by}</li>
-          <li key={element._id}>Number: {element.number}</li>
-          <li key={element._id}>Phase: {element.phase}</li>
-          <li key={element._id}><a href={element.source}>Link</a></li>
-      </div>
+      const elementInfo = (
+      <ul className="t">
+      <li className="li-name"> </li>
+      <li className="li-symbol"> </li>
+      <li className="li-appearance"></li>
+      <li className="li-atomic-mass"> </li>
+      <li className="li-category"></li>
+      <li className="li-discoverer"> </li>
+      <li className="li-namer"> </li>
+      <li className="li-number"> </li>
+      <li className="li-phase"></li>
+      <li className="li-link"></li>
     </ul>
 
-    ))
+    )
     return (
-      <div> {elementInfo[0]} </div>
+      <div> {elementInfo} </div>
     )
   }
-  
 }
 
 export default InfoBox;
