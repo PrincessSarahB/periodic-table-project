@@ -3605,7 +3605,34 @@ db.elements.insert([
   8,
   1
   ]
-  }
+},
+
+{
+"name": "Surprise",
+"appearance": "multicoloured glittery funfetti",
+"atomic_mass": 2,
+"boil": 4.6,
+"category": "transition metal",
+"color": "rainbow",
+"density": 0.55,
+"discovered_by": "Dragon",
+"melt": 0.95,
+"molar_heat": null,
+"named_by": null,
+"number": 120,
+"period": 1,
+"phase": "Solid",
+"source": "https://en.wikipedia.org/wiki/Surprise",
+"spectral_img": null,
+"video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+"summary": "SURPRISE!!!!",
+"symbol": "Ah",
+"xpos": 3,
+"ypos": 6,
+"shells": [
+2
+]
+}
 
 ]
 )
