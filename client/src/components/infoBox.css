@@ -3,14 +3,13 @@ h1{
   font-weight: bold;
   font-size: 100px;
   text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
-  text-align: center;
 }
 
 h2{
-  text-align: center;
+
   color: ivory;
   font-weight: bold;
-  font-size: 50px;
+  font-size: 90px;
   text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 }
 
@@ -46,20 +45,28 @@ li.a{
   width: 75%;
   height: 75%;
   overflow: scroll;
-  border-radius: 2%;
-  border: 6px solid black;
+  border: 8px solid black;
 }
 
 .close{
   height: 20px;
   width: 20px;
   color: white;
-  padding-right: 50px;
+  /* padding-right: 50px; */
   transform: none !important;
   background-color: transparent;
+  border: transparent;
   font-size: 35px !important;
   text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
-  padding: 15px 32px;
+  /* padding: 15px 32px; */
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 3px;
+  padding-right: 15px;
+  float: right;
+}
 
-
+.info-top-banner{
+  justify-content: space-around;
+  align-content: center;
 }

@@ -6,13 +6,15 @@ class InfoBox extends React.Component {
 
     const elementInfo = (
       <div>
+        <div className="info-top-banner">
+        <h1 className="header-symbol">{element.symbol}</h1>
+        <h2 className="header-name">{element.name}</h2>
         <button className="close" onClick={this.props.closeInfoBox}>X</button>
-        <h1>{element.symbol}</h1>
-        <h2>{element.name}</h2>
+        </div>
+
         <div className="element-info">
           <iframe width="640" height="340" src="https://www.youtube.com/embed/rz4Dd1I_fX0" frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
           <ul className="t">
-
             <li className="li-appearance">Appearance: {element.appearance} </li>
             <li className="li-summary">Summary: {element.summary} </li>
             {/* <li className="li-atomic-mass">Atomic Mass: {element.atomic_mass} </li> */}

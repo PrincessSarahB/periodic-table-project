@@ -72,3 +72,8 @@ button:hover {
   font-size: 9.5px;
   text-shadow: -1px 0 lavender, 0 1px lavender, 1px 0 lavender, 0 -1px lavender;
 }
+
+.info-top-banner{
+  display: flex;
+  justify-content: space-around;
+}
