@@ -1,64 +1,64 @@
 .grid-square {
-    min-height: 10vh;
-    max-height: 10vh;
-    min-width: 5.55%;
-    max-width: 5.55%;
-    font-size: 5px;
+  min-height: 10vh;
+  max-height: 10vh;
+  min-width: 5.55%;
+  max-width: 5.55%;
+  font-size: 5px;
 
 }
 
 .diatomic {
-    background-color: green;
+  background-color: green;
 }
 
 .noble {
-    background-color: lightblue;
+  background-color: lightblue;
 }
 
 .alkali {
-    background-color: orange;
+  background-color: orange;
 }
 
 .alkaline {
-    background-color: yellow;
+  background-color: yellow;
 }
 
 .metalloid {
-    background-color: blue;
+  background-color: blue;
 }
 
 .polyatomic {
-    background-color: darkslategray;
+  background-color: darkslategray;
 }
 
 .transition {
-    background-color: lightsalmon;
+  background-color: lightsalmon;
 }
 
 .post-transition {
-    background-color: rgb(250, 115, 70);
+  background-color: rgb(250, 115, 70);
 }
 
 .lanthanide {
-    background-color: MEDIUMSLATEBLUE
+  background-color: MEDIUMSLATEBLUE
 }
 
 .actinide {
-    background-color: firebrick;
+  background-color: firebrick;
 }
 
 button {
-    display: block;
-    height: 100%;
-    width: 100%;
-    transition: all 0.7s;
-    cursor:pointer;
+  display: block;
+  height: 100%;
+  width: 100%;
+  transition: all 0.7s;
+  cursor:pointer;
 }
 
 
 button:hover {
-    transform: scale(2.0) rotateZ(360deg);
-    font-size: 9.5px;
+  transform: scale(2.0) rotateZ(360deg);
+  font-size: 9.5px;
 }
 
 
@@ -70,4 +70,5 @@ button:hover {
 
 .chemical-name{
   font-size: 9.5px;
+  text-shadow: -1px 0 lavender, 0 1px lavender, 1px 0 lavender, 0 -1px lavender;
 }

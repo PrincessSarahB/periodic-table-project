@@ -7,12 +7,12 @@ class InfoBox extends React.Component {
     const elementInfo = (
       <div>
         <button className="close" onClick={this.props.closeInfoBox}>X</button>
-        <h1>Element Info</h1>
+        <h1>{element.symbol}</h1>
+        <h2>{element.name}</h2>
         <div className="element-info">
           <iframe width="640" height="340" src="https://www.youtube.com/embed/rz4Dd1I_fX0" frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
           <ul className="t">
-            <li className="li-name">Name: {element.name} </li>
-            <li className="li-symbol">Symbol: {element.symbol} </li>
+
             <li className="li-appearance">Appearance: {element.appearance} </li>
             <li className="li-summary">Summary: {element.summary} </li>
             {/* <li className="li-atomic-mass">Atomic Mass: {element.atomic_mass} </li> */}

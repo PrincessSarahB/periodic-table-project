@@ -1,3 +1,18 @@
+h1{
+  color: ivory;
+  font-weight: bold;
+  font-size: 100px;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+h2{
+  color: ivory;
+  font-weight: bold;
+  font-size: 70px;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+
 ul, li {
   text-align: left;
   list-style: none;
@@ -28,6 +43,9 @@ li.a{
   width: 75%;
   height: 75%;
   overflow: scroll;
+  border-radius: 2%;
+
+
 
 }
 
@@ -35,6 +53,7 @@ li.a{
   height: 20px;
   width: 20px;
   color: white;
+  padding-right: 50px;
   float: right !important;
   transform: none !important;
   background-color: transparent;
