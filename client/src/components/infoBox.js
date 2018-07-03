@@ -5,7 +5,7 @@ class InfoBox extends React.Component {
     const element = (this.props.displayElement)
 
     const elementInfo = (
-      <div>
+      <div className={element.category} >
         <div className="info-top-banner">
         <h1 className="header-symbol">{element.symbol}</h1>
         <h2 className="header-name">{element.name}</h2>

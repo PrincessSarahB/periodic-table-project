@@ -35,7 +35,7 @@ li.a{
 }
 
 .info-box{
-  background-color: mediumseagreen;
+  /* background-color: mediumseagreen; */
   color: black;
   position: absolute;
   z-index: 50;
@@ -69,4 +69,44 @@ li.a{
 .info-top-banner{
   justify-content: space-around;
   align-content: center;
+}
+
+.diatomic {
+  background-color: green;
+}
+
+.noble {
+  background-color: lightblue;
+}
+
+.alkali {
+  background-color: orange;
+}
+
+.alkaline {
+  background-color: yellow;
+}
+
+.metalloid {
+  background-color: blue;
+}
+
+.polyatomic {
+  background-color: darkslategray;
+}
+
+.transition {
+  background-color: lightsalmon;
+}
+
+.post-transition {
+  background-color: rgb(250, 115, 70);
+}
+
+.lanthanide {
+  background-color: MEDIUMSLATEBLUE
+}
+
+.actinide {
+  background-color: firebrick;
 }
