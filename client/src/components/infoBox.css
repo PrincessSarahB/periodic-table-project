@@ -17,12 +17,6 @@ li.a{
   padding-top: 5%;
   height: inherit;
   width: inherit;
-
-
-}
-
-h1{
-  margin-top: 1px;
 }
 
 .info-box{
@@ -45,8 +39,6 @@ h1{
   width: 20px;
   color: black;
   float: right !important;
-  /* margin-top: 0 !important;
-  text-align: center !important; */
   transform: none !important;
   background-color: transparent;
   justify-content: center;
@@ -54,10 +46,8 @@ h1{
   font-size: 35px;
   text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
   padding: 15px 32px;
-  /* border-radius: 50%; */
   border: goldenrod;
   text-align: center;
-
 }
 
 .periodic-table{
@@ -65,9 +55,5 @@ h1{
 }
 
 .close{
-
   color: white;
-
-
-
 }
