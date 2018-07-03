@@ -49,14 +49,18 @@ button {
     height: 100%;
     width: 100%;
     transition: all 0.7s;
+    cursor:pointer;
 }
+
 
 button:hover {
     transform: scale(2.0) rotateZ(360deg);
 }
+
 
 .chemical-symbol{
   color: ivory;
   font-size: 1vw;
   text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 }
+
