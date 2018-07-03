@@ -8,6 +8,9 @@ class InfoBox extends React.Component {
       <div className="info-box">
           <button className="close" onClick={this.props.closeInfoBox}>X</button>
         <h1>Element Info</h1>
+        <div className="video">
+        <iframe width="320" height="215" src="https://www.youtube.com/embed/rz4Dd1I_fX0" frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
+      </div>
         <div className="element-info">
         <ul className="t">
             <li className="li-name">Name: {element.name} </li>
@@ -23,9 +26,7 @@ class InfoBox extends React.Component {
             <li className="li-link"> <a href={element.source}> Read more </a> </li>
         </ul>
       </div>
-        <div className="video">
-        <iframe width="320" height="215" src="https://www.youtube.com/embed/rz4Dd1I_fX0" frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
-      </div>
+
       </div>
 
     )
