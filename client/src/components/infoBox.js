@@ -9,6 +9,7 @@ class InfoBox extends React.Component {
         <h1>Element Info</h1>
         <ul className="t">
           <div className="element-info">
+              <button className="close" onClick={this.props.closeInfoBox}>X</button>
             <li className="li-name">Name: {element.name} </li>
             <li className="li-symbol">Symbol: {element.symbol} </li>
             <li className="li-appearance">Appearance: {element.appearance} </li>

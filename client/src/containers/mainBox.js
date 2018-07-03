@@ -31,12 +31,17 @@ handleBtnClick(event) {
   this.setState({elementToDisplay: element})
 }
 
+handleCloseButton(event){
+event.currentTarget.value
+document.getElementsByClassName('info-box')[0].hidden = true;
+}
+
 render(){
   return (
     <div className="page-content">
       <PeriodicTable elements={this.state.elements} changeInfo={this.handleBtnClick}/>
       <div className="info-box">
-        <InfoBox displayElement={this.state.elementToDisplay}/>
+        <InfoBox displayElement={this.state.elementToDisplay} closeInfoBox = {this.handleCloseButton}/>
       </div>
     </div>
   )

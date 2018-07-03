@@ -9,6 +9,8 @@ ul, li {
 .element-info {
     font-size: 1vw;
     padding-top: 15%;
+    height: 100%;
+    width: 100%;
 
 }
 
@@ -21,4 +23,8 @@ h1{
   color: white;
   overflow: scroll;
 
+}
+
+.close{
+  color: blue;
 }
