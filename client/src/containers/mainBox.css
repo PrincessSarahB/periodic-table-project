@@ -1,8 +1,16 @@
 .page-content {
-    display: flex;
+  display: flex;
 }
 
 .info-box {
+
+    position: absolute;
+    z-index: 50;
+    opacity: 0.75;
     text-align: center;
-    width: 100%;
+    width: 60%;
+    height: 60%;
+    margin-left: 10%;
+    margin-top: 10%;
+
 }

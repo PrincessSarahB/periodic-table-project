@@ -17,7 +17,8 @@ h1{
 }
 
 .info-box{
-  background-color: navy;
-  color: silver;
+  background-color: darkslategrey;
+  color: white;
   overflow: scroll;
+
 }

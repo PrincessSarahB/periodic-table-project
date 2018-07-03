@@ -20,7 +20,7 @@ class InfoBox extends React.Component {
             <li className="li-number">Number: {element.number} </li>
             <li className="li-phase">Phase: {element.phase} </li>
             <li className="li-link"> <a href={element.source}> Read more </a> </li>
-            <iframe width="320" height="215" src="https://www.youtube.com/embed/rz4Dd1I_fX0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <iframe width="320" height="215" src="https://www.youtube.com/embed/rz4Dd1I_fX0" frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
           </div>
         </ul>
       </div>
