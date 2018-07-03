@@ -21,7 +21,7 @@ db.elements.insert([
   "phase": "Gas",
   "source": "https://en.wikipedia.org/wiki/Hydrogen",
   "spectral_img": "https://en.wikipedia.org/wiki/File:Hydrogen_Spectra.jpg",
-  "video": "https://www.youtube.com/watch?v=LfS10ArXTBA&index=3&list=PL7A1F4CF36C085DE1",
+  "video": "https://www.youtube.com/watch?v=6rdmpx39PRk&list=PL7A1F4CF36C085DE1",
   "summary": "Hydrogen is a chemical element with chemical symbol H and atomic number 1. With an atomic weight of 1.00794 u, hydrogen is the lightest element on the periodic table. Its monatomic form (H) is the most abundant chemical substance in the Universe, constituting roughly 75% of all baryonic mass.",
   "symbol": "H",
   "xpos": 1,

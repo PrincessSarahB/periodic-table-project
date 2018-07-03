@@ -1,30 +1,38 @@
 import React from 'react';
 import "./infoBox.css";
-class InfoBox extends React.Component{
-
+class InfoBox extends React.Component {
   render(){
-    const elementInfo = this.props.elements.map(element => (
-      <ul>
-        <div className="element-info">
-          <li key={element._id}>Name: {element.name}</li>
-          <li key={element._id}>Symbol: {element.symbol}</li>
-          <li key={element._id}>Appearance: {element.appearance}</li>
-          <li key={element._id}>Atomic Mass: {element.atomic_mass}</li>
-          <li key={element._id}>Category: {element.category}</li>
-          <li key={element._id}>Discovered By: {element.discovered_by}</li>
-          <li key={element._id}>Named By: {element.named_by}</li>
-          <li key={element._id}>Number: {element.number}</li>
-          <li key={element._id}>Phase: {element.phase}</li>
-          <li key={element._id}><a href={element.source}>Link</a></li>
-      </div>
-    </ul>
+    const element = (this.props.displayElement)
 
-    ))
+    const elementInfo = (
+      <div>
+        <button className="close" onClick={this.props.closeInfoBox}>X</button>
+        <h1>Element Info</h1>
+        <div className="element-info">
+          <iframe width="640" height="340" src="https://www.youtube.com/embed/rz4Dd1I_fX0" frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
+          <ul className="t">
+            <li className="li-name">Name: {element.name} </li>
+            <li className="li-symbol">Symbol: {element.symbol} </li>
+            <li className="li-appearance">Appearance: {element.appearance} </li>
+            <li className="li-summary">Summary: {element.summary} </li>
+            {/* <li className="li-atomic-mass">Atomic Mass: {element.atomic_mass} </li> */}
+            <li className="li-category">Category: {element.category} </li>
+            <li className="li-discoverer">Discovered By: {element.discovered_by} </li>
+            {/* <li className="li-namer">Named By: {element.named_by} </li> */}
+            <li className="li-number">Number: {element.number} </li>
+            <li className="li-phase">Phase: {element.phase} </li>
+            <li className="li-link"> <a href={element.source}> Read more </a> </li>
+          </ul>
+        </div>
+      </div>
+    )
+
     return (
-      <div> {elementInfo[0]} </div>
+      <div >
+        {elementInfo}
+      </div>
     )
   }
-  
 }
 
 export default InfoBox;
