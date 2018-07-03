@@ -30,15 +30,17 @@ handleBtnClick(event) {
   document.getElementsByClassName('info-box')[0].hidden = false;
   this.setState({elementToDisplay: element})
   var videoElement = document.querySelector("iframe")
- var url = element.video;
-var id = url.split("?v=")[1];
-var id2 = id.split("&")[0];
+  var url = element.video;
+  var id = url.split("?v=")[1];
+  var id2 = id.split("&")[0];
  videoElement.src = "http://www.youtube.com/embed/" + id2
 }
 
 handleCloseButton(event){
-event.currentTarget.value
-document.getElementsByClassName('info-box')[0].hidden = true;
+  event.currentTarget.value
+  document.getElementsByClassName('info-box')[0].hidden = true;
+  var videoElement = document.querySelector("iframe")
+  videoElement.src = '';
 }
 
 render(){
