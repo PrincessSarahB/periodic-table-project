@@ -5,9 +5,10 @@ class InfoBox extends React.Component {
     const element = (this.props.displayElement)
 
     const elementInfo = (
-      <div >
+      <div className="info-box">
           <button className="close" onClick={this.props.closeInfoBox}>X</button>
         <h1>Element Info</h1>
+        <div className="element-info">
         <ul className="t">
             <li className="li-name">Name: {element.name} </li>
             <li className="li-symbol">Symbol: {element.symbol} </li>
@@ -21,6 +22,7 @@ class InfoBox extends React.Component {
             <li className="li-phase">Phase: {element.phase} </li>
             <li className="li-link"> <a href={element.source}> Read more </a> </li>
         </ul>
+      </div>
         <div className="video">
         <iframe width="320" height="215" src="https://www.youtube.com/embed/rz4Dd1I_fX0" frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
       </div>
@@ -29,7 +31,7 @@ class InfoBox extends React.Component {
     )
 
     return (
-      <div className="info-box">
+      <div >
         {elementInfo}
 
 
