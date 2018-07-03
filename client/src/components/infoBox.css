@@ -3,12 +3,14 @@ h1{
   font-weight: bold;
   font-size: 100px;
   text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+  text-align: center;
 }
 
 h2{
+  text-align: center;
   color: ivory;
   font-weight: bold;
-  font-size: 70px;
+  font-size: 50px;
   text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 }
 
@@ -17,7 +19,7 @@ ul, li {
   text-align: left;
   list-style: none;
   line-height: 300%;
-  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  text-shadow: -1px 0 lavender, 0 1px lavender, 1px 0 lavender, 0 -1px lavender;
   font-weight: bold;
   font-size: 25px;
 }
@@ -44,9 +46,7 @@ li.a{
   height: 75%;
   overflow: scroll;
   border-radius: 2%;
-
-
-
+  border: 6px solid black; 
 }
 
 .close{
