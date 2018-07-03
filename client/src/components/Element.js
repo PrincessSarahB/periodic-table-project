@@ -11,7 +11,7 @@ class Element extends React.Component {
           <button className={element.category} value={JSON.stringify(element)} onClick={this.props.btnEvent}>
             <p> <strong> {element.number} </strong> </p>
             <p className="chemical-symbol"> <strong> {element.symbol} </strong> </p>
-            <p> <strong> {element.name} </strong> </p>
+            <p className="chemical-name"> <strong> {element.name} </strong> </p>
           </button>
         </div>
       )

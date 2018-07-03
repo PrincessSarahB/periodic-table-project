@@ -34,19 +34,15 @@ li.a{
 .close{
   height: 20px;
   width: 20px;
-  color: black;
+  color: white;
   float: right !important;
   transform: none !important;
   background-color: transparent;
   justify-content: center;
   display: inline-block;
-  font-size: 35px;
+  font-size: 35px !important;
   text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
   padding: 15px 32px;
   border: goldenrod;
   text-align: center;
-}
-
-.close{
-  color: white;
 }

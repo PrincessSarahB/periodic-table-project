@@ -1,7 +1,10 @@
 .grid-square {
-    height: 10vh;
-    width: 100vw;
-    font-size: 3rem;
+    min-height: 10vh;
+    max-height: 10vh;
+    min-width: 5.55%;
+    max-width: 5.55%;
+    font-size: 5px;
+
 }
 
 .diatomic {
@@ -55,6 +58,7 @@ button {
 
 button:hover {
     transform: scale(2.0) rotateZ(360deg);
+    font-size: 9.5px;
 }
 
 
@@ -64,3 +68,6 @@ button:hover {
   text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 }
 
+.chemical-name{
+  font-size: 9.5px;
+}
