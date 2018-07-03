@@ -10,16 +10,16 @@ class Element extends React.Component {
         <div id={[element.xpos, element.ypos]}  className="element" >
           <button className={element.category} value={JSON.stringify(element)} onClick={this.props.btnEvent}>
             <p> <strong> {element.number} </strong> </p>
-            <p> <strong> {element.symbol} </strong> </p>
+            <p className="chemical-symbol"> <strong> {element.symbol} </strong> </p>
             <p> <strong> {element.name} </strong> </p>
           </button>
         </div>
-      )      
+      )
     }
 
     return (
       <div className="grid-square">
-       {elementInfo} 
+       {elementInfo}
       </div>
     )
 

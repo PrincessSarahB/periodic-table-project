@@ -52,6 +52,12 @@ button {
 }
 
 button:hover {
-    transform: scale(2.0) rotateZ(720deg);
+    transform: scale(2.0) rotateZ(360deg);
     background-color: rgb(51, 1, 255);
+}
+
+.chemical-symbol{
+  color: ivory;
+  font-size: 1vw;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 }
