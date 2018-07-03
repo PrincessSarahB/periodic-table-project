@@ -6,10 +6,9 @@ class InfoBox extends React.Component {
 
     const elementInfo = (
       <div className="info-box">
+          <button className="close" onClick={this.props.closeInfoBox}>X</button>
         <h1>Element Info</h1>
         <ul className="t">
-          <div className="element-info">
-              <button className="close" onClick={this.props.closeInfoBox}>X</button>
             <li className="li-name">Name: {element.name} </li>
             <li className="li-symbol">Symbol: {element.symbol} </li>
             <li className="li-appearance">Appearance: {element.appearance} </li>
@@ -22,7 +21,6 @@ class InfoBox extends React.Component {
             <li className="li-phase">Phase: {element.phase} </li>
             <li className="li-link"> <a href={element.source}> Read more </a> </li>
             <iframe width="320" height="215" src="https://www.youtube.com/embed/rz4Dd1I_fX0" frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
-          </div>
         </ul>
       </div>
 
