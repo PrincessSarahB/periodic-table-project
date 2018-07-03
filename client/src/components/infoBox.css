@@ -1,8 +1,10 @@
 ul, li {
-    text-align: left;
-    list-style: none;
-    line-height: 300%;
-
+  text-align: left;
+  list-style: none;
+  line-height: 300%;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  font-weight: bold;
+  font-size: 25px;
 
 }
 
@@ -11,11 +13,11 @@ li.a{
 }
 
 .element-info {
-    font-size: 1vw;
-    padding-top: 15%;
-    height: 100%;
-    width: 100%;
-    overflow: scroll;
+  font-size: 1vw;
+  padding-top: 5%;
+  height: inherit;
+  width: inherit;
+
 
 }
 
@@ -24,10 +26,8 @@ h1{
 }
 
 .info-box{
-  background-color: white;
+  background-color: mediumseagreen;
   color: black;
-  height: 100%;
-  width: 100%;
   position: absolute;
   z-index: 50;
   opacity: 0.9;
@@ -35,19 +35,39 @@ h1{
   width: 75%;
   height: 75%;
   margin-left: 5%;
-  margin-right: 5%;
-  margin-top: 5%;
+  margin-right: 10%;
+  margin-top: 1%;
+  overflow: scroll;
+}
+
+.close{
+  height: 20px;
+  width: 20px;
+  color: black;
+  float: right !important;
+  /* margin-top: 0 !important;
+  text-align: center !important; */
+  transform: none !important;
+  background-color: transparent;
+  justify-content: center;
+  display: inline-block;
+  font-size: 35px;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+  padding: 15px 32px;
+  /* border-radius: 50%; */
+  border: goldenrod;
+  text-align: center;
 
 }
 
-  .close{
-    height: 20px;
-    width: 20px;
-  color: black;
-  float: right !important;
-  margin-top: 0 !important;
-  text-align: center !important;
-  transform: none !important;
+.periodic-table{
+  width:100%
+}
+
+.close{
+
+  color: white;
+
 
 
 }
