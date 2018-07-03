@@ -6,6 +6,10 @@ ul, li {
 
 }
 
+li.a{
+  color: white;
+}
+
 .element-info {
     font-size: 1vw;
     padding-top: 15%;
@@ -19,19 +23,25 @@ h1{
 }
 
 .info-box{
-  background-color: darkslategrey;
-  color: white;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  color: black;
   overflow: scroll;
   height: 100%;
   width: 100%;
 
 }
 
+.video{
+  justify-content: flex-end;
+}
+
   .close{
     height: 20px;
     width: 20px;
   display:flex;
-  color: blue;
+  color: black;
   float: right !important;
   margin-top: 0 !important;
   text-align: center !important;
