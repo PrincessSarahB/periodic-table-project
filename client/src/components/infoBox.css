@@ -5,7 +5,6 @@ ul, li {
   text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
   font-weight: bold;
   font-size: 25px;
-
 }
 
 li.a{
@@ -28,10 +27,8 @@ li.a{
   text-align: center;
   width: 75%;
   height: 75%;
-  margin-left: 5%;
-  margin-right: 10%;
-  margin-top: 1%;
   overflow: scroll;
+
 }
 
 .close{
@@ -48,10 +45,6 @@ li.a{
   padding: 15px 32px;
   border: goldenrod;
   text-align: center;
-}
-
-.periodic-table{
-  width:100%
 }
 
 .close{

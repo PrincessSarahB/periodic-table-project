@@ -8,11 +8,8 @@ class InfoBox extends React.Component {
       <div>
         <button className="close" onClick={this.props.closeInfoBox}>X</button>
         <h1>Element Info</h1>
-
-
         <div className="element-info">
           <iframe width="640" height="340" src="https://www.youtube.com/embed/rz4Dd1I_fX0" frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
-
           <ul className="t">
             <li className="li-name">Name: {element.name} </li>
             <li className="li-symbol">Symbol: {element.symbol} </li>
@@ -27,19 +24,14 @@ class InfoBox extends React.Component {
             <li className="li-link"> <a href={element.source}> Read more </a> </li>
           </ul>
         </div>
-
       </div>
-
     )
 
     return (
       <div >
         {elementInfo}
-
-
       </div>
     )
-
   }
 }
 
