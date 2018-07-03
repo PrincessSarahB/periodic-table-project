@@ -16,12 +16,12 @@ h2{
 
 
 ul, li {
-  text-align: left;
+  text-align: center;
   list-style: none;
   line-height: 300%;
   text-shadow: -1px 0 lavender, 0 1px lavender, 1px 0 lavender, 0 -1px lavender;
   font-weight: bold;
-  font-size: 25px;
+  font-size: 30px;
 }
 
 li.a{
@@ -42,11 +42,12 @@ li.a{
   z-index: 50;
   opacity: 0.9;
   text-align: center;
+  align-content: center;
   width: 75%;
   height: 75%;
   overflow: scroll;
   border-radius: 2%;
-  border: 6px solid black; 
+  border: 6px solid black;
 }
 
 .close{
@@ -54,14 +55,11 @@ li.a{
   width: 20px;
   color: white;
   padding-right: 50px;
-  float: right !important;
   transform: none !important;
   background-color: transparent;
-  justify-content: center;
-  display: inline-block;
   font-size: 35px !important;
   text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
   padding: 15px 32px;
-  border: goldenrod;
-  text-align: center;
+
+
 }
