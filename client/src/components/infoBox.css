@@ -43,9 +43,15 @@ li.a{
   text-align: center;
   align-content: center;
   width: 75%;
-  height: 75%;
-  overflow: scroll;
+  height: 80%;
+  overflow-y: scroll;
+  overflow-x: auto;
   border: 8px solid black;
+  background-size: full;
+}
+
+.info-box ul {
+  margin: 0;
 }
 
 .close{
