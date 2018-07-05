@@ -23,7 +23,11 @@ Periodic Table of Elements
 
 ## Getting Started
 
-Once cloned or downloaded, use npm install command in the terminal.
+Once cloned or downloaded, run `npm install` at the root level and again in the client level on the command line, after this one will require mongod to run, then run both the express and react servers with `npm start` at the root & client level again. The app should be found on localhost:3000 and you should see the following:
+
+![Image of main screen](/PeriodicTable.png)
+
+![Image of main screen](/PopUp.png)
 
 ## Running the tests
 
