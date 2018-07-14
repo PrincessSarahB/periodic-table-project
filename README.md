@@ -1,4 +1,7 @@
 
+## Note 
+(Roberto De Marco: My commits are so low on this project because the branch I was working on had problems being merged so I slacked my code across.)
+
 ## Brief
 
 Educational App
@@ -21,9 +24,6 @@ http://worldpopulationhistory.org/map/1838/mercator/1/0/24/
 # Project Title
 
 Periodic Table of Elements
-
-*(Note: Roberto De Marco: My commits are so low on this project because the branch I was working on had problems being merged so I slacked my code across.)
-
 
 ## Getting Started
 
