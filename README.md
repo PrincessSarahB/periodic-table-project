@@ -1,3 +1,4 @@
+
 ## Brief
 
 Educational App
@@ -20,6 +21,9 @@ http://worldpopulationhistory.org/map/1838/mercator/1/0/24/
 # Project Title
 
 Periodic Table of Elements
+
+*(Note: Roberto De Marco: My commits are so low on this project because the branch I was working on had problems being merged so I slacked my code across.)
+
 
 ## Getting Started
 
@@ -46,7 +50,7 @@ JavaScript, React, MongoDB, Express and Mocha
 *  [Sarah Bartlett](https://github.com/PrincessSarahB)
 *  [Andrew Lowrie](https://github.com/AndrewLowrie)
 *  [Stuart O'Donnell](https://github.com/StuartODonnell)
-*  [Roberto De Marco](https://github.com/rdm100)
+*  [Roberto De Marco](https://github.com/rdm100) (My commits are so low on this project because the branch I was working on had problems being merged so I slacked my code across.)
 
 
 ## Acknowledgments
